@@ -1,2 +1,2 @@
 [workspace]
-members = ["tcpserver", "tcpclient"]
+members = ["tcpserver", "tcpclient", "trafficlight", "shape", "sum"]
