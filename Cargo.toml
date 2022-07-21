@@ -1,2 +1,15 @@
 [workspace]
-members = ["tcpserver", "tcpclient", "trafficlight", "shape", "sum"]
+members = [
+    "tcpserver",
+    "tcpclient",
+    "trafficlight",
+    "shape",
+    "sum",
+    "node-template/node",
+    "node-template/pallets/template",
+    "node-template/pallets/poe",
+    "node-template/runtime",
+]
+
+[profile.release]
+panic = "unwind"

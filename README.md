@@ -27,3 +27,17 @@
 * 图形周长与面积
 
 ![Shape运行截图](/docs/images/shape.jpeg "Shape")
+
+## 第5课
+
+运行截图
+
+![course5-1](/docs/images/course5-1.jpg "course5-1")
+
+![course5-2](/docs/images/course5-2.jpg "course5-2")
+
+![course5-3](/docs/images/course5-3.jpg "course5-3")
+
+![course5-4](/docs/images/course5-4.jpg "course5-4")
+
+![course5-5](/docs/images/course5-5.jpg "course5-5")
