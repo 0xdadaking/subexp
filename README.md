@@ -1,5 +1,25 @@
 # Substrate进阶课作业
 
+## 第2课
+
+* 创建Kitty
+
+![create kitty](/docs/images/adv_course2_1.jpeg)
+
+* 繁育Kitty
+
+![breed kitty](/docs/images/adv_course2_2.jpeg)
+
+* 转移Kitty
+
+![breed kitty](/docs/images/adv_course2_3.jpeg)
+
+![event list](/docs/images/adv_course2_4.jpeg)
+
+* 扩展的存储——账号对应拥有的所有Kitty
+
+![belongs kitties](/docs/images/adv_course2_5.jpeg)
+
 ## 第1课
 
 * 存证单元测试
