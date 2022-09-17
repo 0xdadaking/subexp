@@ -1,5 +1,16 @@
 # Substrate进阶课作业
 
+## 第3课
+
+* 单元测试
+
+![unit test](/docs/images/adv_course3_1.jpg)
+
+* 前端UI
+
+![front1](/docs/images/adv_course3_2.jpg)
+![front2](/docs/images/adv_course3_3.jpg)
+
 ## 第2课
 
 * 创建Kitty
