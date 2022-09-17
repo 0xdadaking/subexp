@@ -278,16 +278,11 @@ impl pallet_poe::Config for Runtime {
 	type ClaimLimitSize = ClaimLimitSize;
 }
 
-parameter_types! {
-	pub const KittyUnitPrice: u64 = 1000;
-}
-
 impl pallet_kitties::Config for Runtime {
 	type Event = Event;
-	type Randomness = RandomnessCollectiveFlip;
 	type Currency = Balances;
-	type KittyIndex = u32;
-	type KittyUnitPrice = KittyUnitPrice;
+	type MaxKittiesOwned = ConstU32<100>;
+	type KittyRandomness = RandomnessCollectiveFlip;
 }
 
 // Create the runtime by composing the FRAME pallets that were previously configured.
@@ -308,7 +303,7 @@ construct_runtime!(
 		// Include the custom logic from the pallet-template in the runtime.
 		TemplateModule: pallet_template,
 		PoeModule: pallet_poe,
-		Kitties: pallet_kitties,
+		SubstrateKitties: pallet_kitties,
 	}
 );
 
