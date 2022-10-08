@@ -276,6 +276,7 @@ parameter_types! {
 impl pallet_poe::Config for Runtime {
 	type Event = Event;
 	type ClaimLimitSize = ClaimLimitSize;
+	type WeightInfo = pallet_poe::weights::SubstrateWeight<Runtime>;
 }
 
 impl pallet_kitties::Config for Runtime {
@@ -349,6 +350,7 @@ mod benches {
 		[pallet_balances, Balances]
 		[pallet_timestamp, Timestamp]
 		[pallet_template, TemplateModule]
+		[pallet_poe, PoeModule]
 	);
 }
 
